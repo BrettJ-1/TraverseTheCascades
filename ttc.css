@@ -18,6 +18,10 @@ h1 {
     margin-bottom: 50px; /* Adds some space below the h1 */
 }
 
+h2 {
+    text-align: center;
+}
+
 h3 {
     text-align: center;
 }
