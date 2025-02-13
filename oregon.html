@@ -18,17 +18,31 @@
         <nav class="nav-links">
             <a href="oregon.html">Oregon</a>
             <a href="washington.html">Washington</a>
+            <a href="idaho.html">Idaho</a>
             <a href="california.html">Northern California</a>
-            <a href="idaho.html">Western Idaho</a>
             <a href="british_columbia.html">British Columbia</a>
         </nav>
     </header>
+
+    <!-- Weather API -->
+    <h1 id="page-title">Oregon Weather</h1>
+    <h3 class="forecast-title">6-Hour Forecast</h3>
+    <div id="hourly-forecast" class="hourly-container"></div>
+
+    <!-- Google Maps -->
+    <div style="display: flex; justify-content: center; align-items: center; height: 500px;">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d194617.48716130092!2d-123.0980928!3d44.5651331!3m2!1i1024!2i768!4f7.5"
+            id="location-map" width="80%" height="450" style="border:0; border-radius: 10px;" allowfullscreen=""
+            loading="lazy"></iframe>
+    </div>
 
     <!-- Footer -->
     <footer class="footer">
         <p>Copyright: © 2025 Traverse The Cascades. All rights reserved.</p>
     </footer>
 
+    <script src="ttc.js"></script>
 </body>
 
 </html>
