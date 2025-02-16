@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const pageTitle = document.querySelector('#page-title');
     const forecastContainer = document.querySelector('#hourly-forecast');
-    const locationMap = document.querySelector('iframe'); 
+    const locationMap = document.querySelector('iframe');  
 
     let cityName = '';
     let mapSrc = '';

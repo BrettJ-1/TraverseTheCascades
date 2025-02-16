@@ -15,15 +15,13 @@ body {
 
 h1 {
     text-align: center;
+    font-family: Brush Script MT, cursive;
     margin-bottom: 50px; /* Adds some space below the h1 */
 }
 
-h2 {
+h2, h3, p {
     text-align: center;
-}
-
-h3 {
-    text-align: center;
+    font-family: sans-serif;
 }
 
 /* Background Image (Rainier) */
@@ -37,7 +35,7 @@ h3 {
     background-size: cover; 
     z-index: -1;
     filter: grayscale(50%);
-    opacity: 50%;
+    opacity: 75%;
 }
 
 /* Header */
@@ -61,7 +59,7 @@ h3 {
 }
 
 .header-logo:hover {
-    transform: scale(1.1); /* Enlarges the logo when hovered */
+    transform: scale(1.1);
 }
 
 /* Navigation Links */
@@ -163,34 +161,213 @@ h3 {
     opacity: 1;
 }
 
+/* Oregon Background */
+.background-section-oregon {
+    position: relative;
+    width: 100%;
+    height: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+}
+
+.background-section-oregon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("images/Multnomah_Falls.jpeg") no-repeat center center;
+    background-size: cover; 
+    z-index: -1; 
+}
+
+.background-section-oregon h1 {
+    font-size: 70px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6); 
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 10px 20px;
+    border-radius: 10px; 
+    display: inline-block; 
+    color: rgba(34, 49, 34, 100);
+}
+
+/* Washington Background */
+.background-section-washington {
+    position: relative;
+    width: 100%;
+    height: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+}
+
+.background-section-washington::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("images/Olympic_National_Park.jpg") no-repeat center center;
+    background-size: cover; 
+    z-index: -1; 
+}
+
+.background-section-washington h1 {
+    font-size: 70px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6); 
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 10px 20px;
+    border-radius: 10px; 
+    display: inline-block; 
+    color: rgba(34, 49, 34, 100);
+}
+
+/* Idaho Background */
+.background-section-idaho {
+    position: relative;
+    width: 100%;
+    height: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+}
+
+.background-section-idaho::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("images/Snake_River_Canyon.jpeg") no-repeat center center;
+    background-size: cover; 
+    z-index: -1; 
+}
+
+.background-section-idaho h1 {
+    font-size: 70px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6); 
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 10px 20px;
+    border-radius: 10px; 
+    display: inline-block; 
+    color: rgba(34, 49, 34, 100);
+}
+
+/* Northern California Background */
+.background-section-california {
+    position: relative;
+    width: 100%;
+    height: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+}
+
+.background-section-california::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("images/Mt_Shasta.jpeg");
+    background-size: cover; 
+    background-position: center 25%;
+    z-index: -1; 
+}
+
+.background-section-california h1 {
+    font-size: 70px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6); 
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 10px 20px;
+    border-radius: 10px; 
+    display: inline-block; 
+    color: rgba(34, 49, 34, 100);
+}
+
+/* British Columbia Background */
+.background-section-british-columbia {
+    position: relative;
+    width: 100%;
+    height: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+}
+
+.background-section-british-columbia::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("images/Joffre_Lake.jpg");
+    background-size: cover; 
+    background-position: center 55%;
+    z-index: -1; 
+}
+
+.background-section-british-columbia h1 {
+    font-size: 70px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6); 
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 10px 20px;
+    border-radius: 10px; 
+    display: inline-block; 
+    color: rgba(34, 49, 34, 100);
+}
+
 /* Hourly Forecast Section */
 #hourly-forecast {
     display: flex;
-    justify-content: center;  
-    gap: 20px;               
-    flex-wrap: wrap;        
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 15px;  
     padding: 20px;
-    margin-top: 20px;
+    max-width: 1100px;
+    margin: 20px auto;
 }
 
 /* Hourly Forecast Box */
 .hour {
-    background: rgba(255, 255, 255, 0.9); /* Slight opacity for readability */
-    padding: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
     border-radius: 10px;
     text-align: center;
     font-size: 14px;
     font-weight: bold;
-    color: black; /* Text color is black */
+    color: black;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90px; /* Fixed width for the hourly boxes */
-    margin: 10px;
+    justify-content: center;
+    width: 120px; 
+    height: 150px;
 }
 
-/* Hour Text */
+/* Forecast Time */
 .hour-time {
     font-size: 14px;
     font-weight: bold;
@@ -199,8 +376,8 @@ h3 {
 
 /* Weather Icon */
 .hour img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     margin: 5px 0;
 }
 

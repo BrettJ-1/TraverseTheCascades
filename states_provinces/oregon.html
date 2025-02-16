@@ -24,21 +24,55 @@
         </nav>
     </header>
 
-    <h1>Oregon</h1>
+    <div class="background-section-oregon">
+        <h1>Oregon</h1>
+    </div>
+
+    <div style="text-align: center; width: 80%; margin: 20px auto;">
+
+        <h2>Geography</h2>
+
+        <p>Oregon's scenery is nothing short of breathtaking. From the rugged cliffs and sandy shores of the Pacific
+            coastline to the snow-capped peaks of the Cascade Mountains, the state offers an unforgettable backdrop for
+            any adventure. Crater Lake, with its deep blue waters, feels almost otherworldly, while the Columbia River
+            Gorge delights with cascading waterfalls and endless hiking trails. Whether you're wandering through lush
+            forests, exploring high desert plains, or relaxing in a quiet valley, Oregon's landscapes are as diverse as
+            they are beautiful.</p>
+
+        <h2>History</h2>
+
+        <p>Oregon's history adds depth to its natural beauty. For thousands of years, Indigenous tribes like the
+            Chinook, Klamath, and Umatilla called this land home, leaving a lasting cultural impact. The arrival of
+            pioneers along the Oregon Trail in the 1800s marked a new chapter, filled with tales of perseverance and
+            exploration. The Lewis and Clark Expedition, which passed through the region in the early 1800s, further
+            highlighted Oregon's significance in westward expansion. Today, you can step back in time at places like the
+            Lewis and Clark National Historical Park in Astoria or explore the exhibits at the Oregon Historical Society
+            Museum, both offering rich insights into the state's past.</p>
+
+        <h2>Cities & Culture</h2>
+
+        <p>Portland, Oregon's largest city, is known for its vibrant arts scene, diverse culinary offerings, and
+            commitment to sustainability. With its unique neighborhoods, extensive park system, and renowned coffee
+            culture, Portland embodies a creative and progressive spirit. Salem, the state capital, offers historic
+            charm and beautifully maintained gardens. Eugene, home to the University of Oregon, thrives with youthful
+            energy, arts, and outdoor activities. Bend attracts outdoor enthusiasts year-round with its abundance of
+            recreational opportunities, while Medford, located in the Rogue Valley, is celebrated for its wineries and
+            scenic beauty. Cities across Oregon add to its diverse appeal, offering something for every traveler.</p>
+    </div>
+
+    <!-- Google Maps -->
+    <div style="display: flex; justify-content: center; align-items: center; height: 500px;">
+        <iframe id="location-map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8387363.365899883!2d-125.6118661411964!3d43.93357554434557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54c0d99bc27d6f07%3A0xe80b2f2d55fda78!2sOregon!5e0!3m2!1sen!2sus!4v1707851625432!5m2!1sen!2sus"
+            width="80%" height="450" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
 
     <!-- Weather API -->
     <h2 id="page-title"></h2>
     <h3 class="forecast-title">6-Hour Forecast</h3>
-    <div id="hourly-forecast" class="hourly-container"></div>
 
-    <!-- Google Maps -->
-    <div style="display: flex; justify-content: center; align-items: center; height: 500px;">
-        <iframe
-            id="location-map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8387363.365899883!2d-125.6118661411964!3d43.93357554434557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54c0d99bc27d6f07%3A0xe80b2f2d55fda78!2sOregon!5e0!3m2!1sen!2sus!4v1707851625432!5m2!1sen!2sus"
-            width="80%" height="450" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy">
-        </iframe>
-    </div>    
+    <div id="hourly-forecast" class="hourly-container"></div>
 
     <!-- Footer -->
     <footer class="footer">
