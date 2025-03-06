@@ -1,7 +1,8 @@
 /* Prevent horizontal scrolling */
-body, html {
-    overflow-x: hidden; 
-    width: 100%; 
+body,
+html {
+    overflow-x: hidden;
+    width: 100%;
 }
 
 /* Body */
@@ -10,17 +11,19 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; 
+    min-height: 100vh;
     background-color: rgba(240, 240, 240, 100);
 }
 
 h1 {
     text-align: center;
     font-family: Brush Script MT, cursive;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
 
-h2, h3, p {
+h2,
+h3,
+p {
     text-align: center;
     font-family: sans-serif;
 }
@@ -28,12 +31,12 @@ h2, h3, p {
 /* Background Image (Rainier) */
 .background-section {
     position: absolute;
-    top: 0; 
+    top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh; 
-    background: url("images/Mount_Rainier.jpg") no-repeat top center; 
-    background-size: cover; 
+    height: 100vh;
+    background: url("images/Mount_Rainier.jpg") no-repeat top center;
+    background-size: cover;
     z-index: -1;
     filter: grayscale(50%);
     opacity: 75%;
@@ -55,7 +58,7 @@ h2, h3, p {
 
 /* Header Logo */
 .header-logo {
-    height: 50px; 
+    height: 50px;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -80,7 +83,7 @@ h2, h3, p {
 }
 
 .nav-links a:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
     color: #f0f0f0;
 }
 
@@ -92,7 +95,7 @@ h2, h3, p {
 
 .logo-front {
     width: 100%;
-    max-width: 500px; 
+    max-width: 500px;
 }
 
 /* Content Positioning */
@@ -100,7 +103,7 @@ h2, h3, p {
     margin-top: 5px;
     text-align: center;
     padding: 20px;
-    flex-grow: 1; 
+    flex-grow: 1;
 }
 
 /* Image Gallery */
@@ -166,11 +169,11 @@ h2, h3, p {
 .background-section-oregon {
     position: relative;
     width: 100%;
-    height: 300px; 
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .background-section-oregon::before {
@@ -181,20 +184,20 @@ h2, h3, p {
     width: 100%;
     height: 100%;
     background: url("images/Trillium_Lake.jpg") no-repeat center center;
-    background-size: cover; 
+    background-size: cover;
     background-position: center 30%;
-    z-index: -1; 
+    z-index: -1;
 }
 
 .background-section-oregon h1 {
     font-size: 70px;
     font-family: 'Brush Script MT', cursive;
     font-weight: 300;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6); 
-    background: rgba(255, 255, 255, 0.9); 
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.9);
     padding: 10px 20px;
-    border-radius: 10px; 
-    display: inline-block; 
+    border-radius: 10px;
+    display: inline-block;
     color: rgba(34, 49, 34, 100);
 }
 
@@ -202,11 +205,11 @@ h2, h3, p {
 .background-section-washington {
     position: relative;
     width: 100%;
-    height: 300px; 
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .background-section-washington::before {
@@ -217,20 +220,20 @@ h2, h3, p {
     width: 100%;
     height: 100%;
     background: url("images/Olympic_National_Park.jpg") no-repeat center center;
-    background-size: cover; 
+    background-size: cover;
     background-position: center 30%;
-    z-index: -1; 
+    z-index: -1;
 }
 
 .background-section-washington h1 {
     font-size: 70px;
     font-family: 'Brush Script MT', cursive;
     font-weight: 300;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6); 
-    background: rgba(255, 255, 255, 0.9); 
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.9);
     padding: 10px 20px;
-    border-radius: 10px; 
-    display: inline-block; 
+    border-radius: 10px;
+    display: inline-block;
     color: rgba(34, 49, 34, 100);
 }
 
@@ -238,11 +241,11 @@ h2, h3, p {
 .background-section-idaho {
     position: relative;
     width: 100%;
-    height: 300px; 
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .background-section-idaho::before {
@@ -253,20 +256,20 @@ h2, h3, p {
     width: 100%;
     height: 100%;
     background: url("images/Snake_River_Canyon.jpg") no-repeat center center;
-    background-size: cover; 
+    background-size: cover;
     background-position: center 15%;
-    z-index: -1; 
+    z-index: -1;
 }
 
 .background-section-idaho h1 {
     font-size: 70px;
     font-family: 'Brush Script MT', cursive;
     font-weight: 300;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6); 
-    background: rgba(255, 255, 255, 0.9); 
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.9);
     padding: 10px 20px;
-    border-radius: 10px; 
-    display: inline-block; 
+    border-radius: 10px;
+    display: inline-block;
     color: rgba(34, 49, 34, 100);
 }
 
@@ -274,11 +277,11 @@ h2, h3, p {
 .background-section-california {
     position: relative;
     width: 100%;
-    height: 300px; 
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .background-section-california::before {
@@ -289,20 +292,20 @@ h2, h3, p {
     width: 100%;
     height: 100%;
     background: url("images/Mt_Shasta.jpeg");
-    background-size: cover; 
+    background-size: cover;
     background-position: center 25%;
-    z-index: -1; 
+    z-index: -1;
 }
 
 .background-section-california h1 {
     font-size: 70px;
     font-family: 'Brush Script MT', cursive;
     font-weight: 300;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6); 
-    background: rgba(255, 255, 255, 0.9); 
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.9);
     padding: 10px 20px;
-    border-radius: 10px; 
-    display: inline-block; 
+    border-radius: 10px;
+    display: inline-block;
     color: rgba(34, 49, 34, 100);
 }
 
@@ -310,11 +313,11 @@ h2, h3, p {
 .background-section-british-columbia {
     position: relative;
     width: 100%;
-    height: 300px; 
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .background-section-british-columbia::before {
@@ -325,34 +328,34 @@ h2, h3, p {
     width: 100%;
     height: 100%;
     background: url("images/Joffre_Lake.jpg");
-    background-size: cover; 
+    background-size: cover;
     background-position: center 70%;
-    z-index: -1; 
+    z-index: -1;
 }
 
 .background-section-british-columbia h1 {
     font-size: 70px;
     font-family: 'Brush Script MT', cursive;
     font-weight: 300;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6); 
-    background: rgba(255, 255, 255, 0.9); 
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.9);
     padding: 10px 20px;
-    border-radius: 10px; 
-    display: inline-block; 
+    border-radius: 10px;
+    display: inline-block;
     color: rgba(34, 49, 34, 100);
 }
 
 /* Beaches Page */
 .beaches-container {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     gap: 25px;
     padding: 10px 15px;
     max-width: 1200px;
     margin: 15px auto;
-    flex-wrap: nowrap; 
+    flex-wrap: nowrap;
 }
 
 .beach-item {
@@ -368,16 +371,16 @@ h2, h3, p {
     width: 32%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
-    height: 400px; 
-    position: relative; 
+    height: 400px;
+    position: relative;
 }
 
 .beach-item img {
     width: 100%;
-    height: 50%; 
+    height: 250px;
     object-fit: cover;
-    border-top-left-radius: 10px; 
-    border-top-right-radius: 10px; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .beach-item .content {
@@ -390,22 +393,40 @@ h2, h3, p {
 
 .beach-image {
     width: 100%;
-    height: 50%; 
-    object-fit: cover; 
-    border-radius: 10px 10px 10px 10px; 
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10px;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.beach-item:hover .beach-image {
+    filter: grayscale(75%);
+    transform: scale(1.05);
+}
+
+.beach-item::after {
+    content: attr(data-text);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
 .beach-box {
     color: white;
     text-align: center;
-    padding: 10px;
 }
 
 .beach-box h3 {
     font-size: 22px;
-    margin-bottom: 10px;
     color: #f0f0f0;
 }
 
@@ -418,7 +439,7 @@ h2, h3, p {
 .background-section-beaches {
     position: relative;
     width: 100%;
-    height: 300px; 
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -433,7 +454,7 @@ h2, h3, p {
     width: 100%;
     height: 100%;
     background: url("../TraverseTheCascades/images/Cannon_Beach.jpg");
-    background-size: cover; 
+    background-size: cover;
     background-position: center 50%;
     z-index: -1;
 }
@@ -450,11 +471,10 @@ h2, h3, p {
     color: rgba(34, 49, 34, 100);
 }
 
-
 /* Cities Page */
 .cities-container {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     gap: 25px;
@@ -468,7 +488,6 @@ h2, h3, p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
     background: rgba(34, 49, 34, 0.9);
     border-radius: 10px;
     margin-bottom: 0;
@@ -477,17 +496,59 @@ h2, h3, p {
     width: 32%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
-    height: 400px; 
+    height: 400px;
     position: relative;
 }
 
+.city-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.city-item .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Hover Effects for City Images */
 .city-image {
     width: 100%;
-    height: 50%; 
+    height: 50%;
     object-fit: cover;
-    border-radius: 10px 10px 10px 10px; 
-    border-top-left-radius: 10px; 
-    border-top-right-radius: 10px; 
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.city-item:hover .city-image {
+    filter: grayscale(75%);
+    transform: scale(1.05);
+}
+
+/* Hover Text Overlay for City */
+.city-item::after {
+    content: attr(data-text);
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.city-item:hover::after {
+    opacity: 1;
 }
 
 .city-box {
@@ -543,11 +604,10 @@ h2, h3, p {
     color: rgba(34, 49, 34, 100);
 }
 
-
 /* Parks & Scenic Areas Page */
 .parks-container {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     gap: 25px;
@@ -561,7 +621,6 @@ h2, h3, p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
     background: rgba(34, 49, 34, 0.9);
     border-radius: 10px;
     margin-bottom: 0;
@@ -570,17 +629,59 @@ h2, h3, p {
     width: 32%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
-    height: 400px; 
+    height: 400px;
     position: relative;
 }
 
+.park-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.park-item .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Hover Effects for Park Images */
 .park-image {
     width: 100%;
-    height: 50%; 
+    height: 50%;
     object-fit: cover;
-    border-radius: 10px 10px 10px 10px; 
-    border-top-left-radius: 10px; 
-    border-top-right-radius: 10px; 
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.park-item:hover .park-image {
+    filter: grayscale(75%);
+    transform: scale(1.05);
+}
+
+/* Hover Text Overlay for Park */
+.park-item::after {
+    content: attr(data-text);
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.park-item:hover::after {
+    opacity: 1;
 }
 
 .park-box {
@@ -640,8 +741,8 @@ h2, h3, p {
 #hourly-forecast {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;  
-    gap: 15px;  
+    flex-wrap: wrap;
+    gap: 15px;
     padding: 20px;
     max-width: 1100px;
     margin: 20px auto;
@@ -661,7 +762,7 @@ h2, h3, p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 120px; 
+    width: 120px;
     height: 150px;
 }
 
@@ -694,5 +795,5 @@ h2, h3, p {
     font-size: 16px;
     position: relative;
     width: 100%;
-    margin-top: auto; 
+    margin-top: auto;
 }
