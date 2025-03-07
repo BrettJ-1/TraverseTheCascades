@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: rgba(240, 240, 240, 100);
+    background-color: rgba(240, 240, 240, 100); 
 }
 
 h1 {
