@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: rgba(240, 240, 240, 100); 
+    background-color: rgba(240, 240, 240, 100);  
 }
 
 h1 {
@@ -334,6 +334,330 @@ p {
 }
 
 .background-section-british-columbia h1 {
+    font-size: 70px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    color: rgba(34, 49, 34, 100);
+}
+
+/* Cannon Beach Background */
+.background-section-cannon-beach {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.background-section-cannon-beach::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("images/Cannon_Beach_2.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: center 40%;
+    z-index: -1;
+}
+
+.background-section-cannon-beach h1 {
+    font-size: 70px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    color: rgba(34, 49, 34, 100);
+}
+
+/* Glass Beach Background */
+.background-section-glass-beach {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.background-section-glass-beach::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("images/Glass_Beach.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: center 40%;
+    z-index: -1;
+}
+
+.background-section-glass-beach h1 {
+    font-size: 70px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    color: rgba(34, 49, 34, 100);
+}
+
+/* Ruby Beach Background */
+.background-section-ruby-beach {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.background-section-ruby-beach::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("images/Ruby_Beach.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: center 55%;
+    z-index: -1;
+}
+
+.background-section-ruby-beach h1 {
+    font-size: 70px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    color: rgba(34, 49, 34, 100);
+}
+
+/* Portland Background */
+.background-section-portland {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.background-section-portland::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("images/Portland_2.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: center 45%;
+    z-index: -1;
+}
+
+.background-section-portland h1 {
+    font-size: 70px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    color: rgba(34, 49, 34, 100);
+}
+
+/* Seattle Background */
+.background-section-seattle {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.background-section-seattle::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("images/Seattle.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: center 35%;
+    z-index: -1;
+}
+
+.background-section-seattle h1 {
+    font-size: 70px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    color: rgba(34, 49, 34, 100);
+}
+
+/* Vancouver Background */
+.background-section-vancouver {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.background-section-vancouver::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("images/Vancouver.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: center 40%;
+    z-index: -1;
+}
+
+.background-section-vancouver h1 {
+    font-size: 70px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    color: rgba(34, 49, 34, 100);
+}
+
+/* Mt. Rainier Background */
+.background-section-mt-rainier {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.background-section-mt-rainier::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("images/Mount_Rainier_2.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: center 65%;
+    z-index: -1;
+}
+
+.background-section-mt-rainier h1 {
+    font-size: 70px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    color: rgba(34, 49, 34, 100);
+}
+
+/* Multnomah Falls Background */
+.background-section-multnomah-falls {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.background-section-multnomah-falls::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("images/Multnomah_Falls_2.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: center 45%;
+    z-index: -1;
+}
+
+.background-section-multnomah-falls h1 {
+    font-size: 70px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    color: rgba(34, 49, 34, 100);
+}
+
+/* Redwoods Background */
+.background-section-redwoods {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.background-section-redwoods::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("images/Redwoods_2.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: center 40%;
+    z-index: -1;
+}
+
+.background-section-redwoods h1 {
     font-size: 70px;
     font-family: 'Brush Script MT', cursive;
     font-weight: 300;
